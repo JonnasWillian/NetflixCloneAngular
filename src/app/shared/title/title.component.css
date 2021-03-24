@@ -41,7 +41,8 @@
     font-size: 20px;
     margin: 5px auto;
 }
-.title-item .btn-play {
+
+.title-item .btn{
     background: none;
     border: #fff 2px solid;
     border-radius: 16px;
@@ -51,6 +52,19 @@
     width: 32px;
     height: 32px;
 }
+
+.title-item .btn I {
+    line-height: 16px;
+    color: white;
+}
+
+.title-item .btn-muted {
+    color: fff;
+    font-size: 28px;
+    margin: -7px auto;
+}
+
+
 .title-item .btn-play i {
     color: red;
 }
